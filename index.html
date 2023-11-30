@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bakery.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(51.508742, -0.120850),
+                zoom: 5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
+    <link rel="stylesheet" href="css/bakery.css">
+
+</head>
+
+<body>
+    <!-- navbar first section start -->
+
+<div id="loading">
+    <div class="sk-cube-grid">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+      </div>
+</div>
+
+<a href="#home" id="scroll-btn" class="text-white d-flex justify-content-center align-items-center text-decoration-none">
+        <i class="fa fa-arrow-up"></i>
+</a>
+    <section id="home" class=" problem allscreen vh-100 position-relative">
+        <div
+            class="homeSection d-flex justify-content-center align-items-center position-absolute top-0 bottom-0 start-0 end-0">
+           
+            <nav class="fixed-top">
+                <ul class='nav-bar'>
+                    <li class='logo'><a href='#'><img src='images/bakery-light-1.png' /></a></li>
+                    <span class="menu">
+                        <li><a class="navLink" href="#home">Home</a></li>
+                        <li><a class="navLink" href="#about">About</a></li>
+                        <li><a class="navLink" href="#ouroffer">Our Offer</a></li>
+                        <li><a class="navLink" href="#gallery">Gallery</a></li>
+                        <li><a class="navLink" href="#blog">Blog</a></li>
+                        <li><a class="navLink" href="#contact">Contact</a></li>
+                        <span class="close-menu"><i class="fas fa-times fs-1"></i></span>
+                    </span>
+                    <span class="open-menu"><i class="fas fa-bars fs-1"></i></span>
+                </ul>
+            </nav>
+            <div data-aos="fade-up" data-aos-delay="600" data-aos-easing="linear" data-aos-duration="1000" class="content text-center">
+                <p class="text-white fs-2 my-3">Welcome to</p>
+                <h1 class="text-white mt-3">Family Bakery</h1>
+                <p class="text-white lead py-4 px-1">We're the biggest Bakery in Los Angeles.</p>
+                <div class="button">
+                    <button class="btn1">Learn More</button>
+                    <button class="btn2">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- navbar first section end -->
+
+
+
+    <!-- second section start -->
+
+    <section id="about" class="problem  my-5 bg-light py-5">
+        <div class="row container m-auto">
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"
+                class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="pt-5 p-4 ">
+                    <img class="w-100 rounded-5" src="images/alexandru-stavrica-170390-800x760.jpg" alt="cake">
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500" class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="pt-5">
+                    <h2 class="fs-1 fw-bold">Who we are?</h2>
+                    <p class="lead  my-2">We have been operating for over 30 years and are Members of The Federation of
+                        Master Builders. We
+                        work on projects big and small from small residential extensions to full house. We are so happy
+                        with
+                        this theme. Everyday it make our lives better.</p>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="lead my-1"><i class="fa fa-leaf fs-5 me-3 p-3 rounded-circle bg-color"></i>We
+                                care about
+                                environment.</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="lead my-1"><i class="fa fa-heart fs-5 me-3 p-3 rounded-circle bg-color"></i>We
+                                care
+                                about environment.</div>
+                        </div>
+                        <div class="col-12">
+
+                            <div class="lead my-1"><i class="fa fa-check fs-5 me-3 p-3 rounded-circle bg-color"></i>We
+                                care
+                                about environment.</div>
+                        </div>
+                        <div class="col-12">
+
+
+                            <div class="lead my-1"><i class="fa fa-person fs-5 me-3 p-3 rounded-circle bg-color"></i>We
+                                care
+                                about environment.</div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- third section start -->
+    <section id="ouroffer" class="problem container my-5 py-5">
+        <div class="row mt-4">
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500"
+                class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="pt-5  ">
+                    <h2 class="fs-1 fw-bold">Our Location</h2>
+                    <p class="lead"> We have been operating for over 30 years and are Members of The Federation of
+                        Master Builders.
+                        We
+                        work
+                        on projects big and small from small residential extensions to full house. We are so happy with
+                        this
+                        theme. Everyday it make our lives better.</p><br>
+                    <p class="lead"> Story on projects big and small from small residential extensions to full house. We
+                        are so happy
+                        with
+                        this theme. Everyday it make our lives better.</p>
+                </div>
+            </div>
+            <div 
+                class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500" class="pt-5">
+                    <img class="w-100 rounded-5" src="images/full-2-800x640.jpg" alt="bakery">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fourth section start -->
+    <section id="gallery" class="problem  text-center my-5 bg-light py-3">
+        <div class="row container mx-auto my-5">
+            <h2 class="fs-1 fw-bold my-3">Our Baking</h2>
+            <div 
+                class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="card bg-color my-2 p-3 rounded-4">
+                    <img src="images/ben-garratt-134774-600x500.jpg" class="w-100 rounded-4" alt="">
+                    <h2 class="my-2">Superior Breads</h2>
+                    <p class="lead">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis.</p>
+                </div>
+            </div>
+            <div 
+                class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class=" card bg-color my-2 p-3 rounded-4">
+                    <img src="images/stas-ovsky-123540-600x500.jpg" class="w-100 rounded-4" alt="">
+                    <h2 class="my-2">Bagels</h2>
+                    <p class="lead">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis.</p>
+                </div>
+            </div>
+            <div 
+                class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="card bg-color my-2 p-3 rounded-4">
+                    <img src="images/clem-onojeghuo-206832-600x500.jpg" class="w-100 rounded-4" alt="">
+                    <h2 class="my-2">Cookies</h2>
+                    <p class="lead">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis.</p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- fifth section start -->
+    <section class="container problem my-5 py-5" id="blog">
+        <div class="row mt-5">
+            <div 
+                class=" col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                    <h2 class="fs-1 fw-bold">Contact Information</h2>
+                    <p class="lead">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <h3 class="fs-2 fw-bold">Our contact details:</h3>
+                    <div class="lead my-3"><span class="p-2 bg-color fs-4 rounded-circle"><i
+                                class="fa fa-map"></i></span> St 123-78B, Random 713, UK</div>
+                    <div class="lead my-3"><span class="p-2 bg-color fs-4 rounded-circle"><i
+                                class="fa fa-phone"></i></span> +46 123 456 789</div>
+                    <div class="lead my-3"><span class="p-2 bg-color fs-4 rounded-circle"><i
+                                class="fa fa-headphones"></i></span> +37 431 456 789</div>
+                    <div class="lead my-3"><span class="p-2 bg-color fs-4 rounded-circle"><i
+                                class="fa fa-envelope"></i></span> hello@sitename.com</div>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500"
+                class=" col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div id="googleMap" class="W-100 h-100 rounded-4"></div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section start  -->
+
+    <section id="contact" class="problem bg-main pt-5 pb-3">
+        <div class="row container mx-auto">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <h2 class="fs-4 text-white mb-3">About us</h2>
+                <p class="lead fs-6"> I am text block. Click edit button to change this text. Lorem ipsum dolor sit
+                    amet,
+                    consectetur. I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                    consectetur.</p>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <h2 class="fs-4 text-white mb-3">Why we are special?</h2>
+                <ul>
+                    <div class="lead fs-6 my-2">Our magical recipe.</div>
+                    <div class="lead fs-6 my-2">We care about environment.</div>
+                    <div class="lead fs-6 my-2">We are trusted clients.</div>
+                    <div class="lead fs-6 my-2">Social media loves us!</div>
+                    <div class="lead fs-6 my-2">This list is easy to create.</div>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <h2 class="fs-4 text-white mb-3">Opening Hours</h2>
+                <div class="lead fs-6 my-2"><i class="fa fa-arrow-right fs-4 me-1"></i>Sunday 10 AM - 10 PM</div>
+                <div class="lead fs-6 my-2"><i class="fa fa-arrow-right fs-4 me-1"></i> Monday 10 AM - 9 PM</div>
+                <div class="lead fs-6 my-2"><i class="fa fa-arrow-right fs-4 me-1"></i>Tuesday 10 AM - 9 PM</div>
+                <div class="lead fs-6 my-2"><i class="fa fa-arrow-right fs-4 me-1"></i>Wednesday 10 AM - 9 PM</div>
+                <div class="lead fs-6 my-2"><i class="fa fa-arrow-right fs-4 me-1"></i>Thursday 10 AM - 10 PM</div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <h2 class="fs-4 text-white mb-3">Contact Details </h2>
+                <div class="my-2 lead fs-6"><i class="fa fa-location-arrow fs-4"></i> Manchester Road 123-78B</div>
+                <div class="my-2 lead fs-6"><i class="fa fa-phone fs-4"></i> +46 123 456 789</div>
+                <div class="my-2 lead fs-6"><i class="fa fa-envelope fs-4"></i> hello@sitename.com</div>
+                <div class="my-2 lead fs-6"><i class="fa fa-globe fs-4"></i> http://www.sitename.com</div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(51.508742, -0.120850),
+                zoom: 5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?AIzaSyCXuSwbsa81vaOUqm6R_rwScwV-SIj6MU0&callback=myMap"></script>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.refresh();
+    </script>
+</body>
+
+</html>
